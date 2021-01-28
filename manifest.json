@@ -1,0 +1,33 @@
+{
+	"name":"Spotify (Unofficial)"
+	,"description":"Play any track or playlist from Spotify. Requires Spotify premium."
+	,"version":1
+	,"type":"player"
+	,"scope":[
+		"BetterLog"
+		,"util.cX"
+		,"util.cpX"
+		,"util.fsX"
+		,"event-stream"
+	]
+	,"simultaneousPlay":false
+	,"online":true
+	,"infinitLibrary":true 
+	,"rootFolder":"/Spotify"	
+	,"basicFolders":[
+		"/Users"
+		,"/Featured playlists"
+	]
+	,"settings":{
+		"accounts":{	
+			"type":"table"
+			,"description":"User accounts"
+			,"add":true
+			,"remove":true
+			,"fields":{
+				"user":{}
+				,"password":{"type":"password"}
+			}
+		}
+	}
+}
